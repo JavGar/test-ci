@@ -23,4 +23,9 @@ class ExampleUnitTest {
     fun less_isCorrect() {
         assertEquals(1, 2 - 1)
     }
+
+    @Test
+    fun less2_isCorrect() {
+        assertEquals(1, 2 - 2)
+    }
 }
